@@ -4,7 +4,7 @@ name: build deploy 2
 on:
   push:
     branches:
-      - test-dora
+      - main
   workflow_dispatch:
 jobs:
   build-deploy-artifact:
